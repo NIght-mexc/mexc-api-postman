@@ -1014,7 +1014,6 @@
 					"        return !!item.key == true ? `${item.key}=${encodeURIComponent(item.value)}`:'';",
 					"    }).join('&');",
 					"}",
-					"",
 					"const sign = CryptoJS.enc.Hex.stringify(CryptoJS.HmacSHA256(objectString, ApiSec))",
 					"",
 					"console.log(`Request-Time: ${stemp}`)",
